@@ -1,7 +1,7 @@
 # Why build a social network?
 During our second semester of graduation, some very nice data structures. In order to fullfill our aknowledgment on those subjects, we have decided to develop this social network apllication. 
 <br/>
-This application consist in a mono repo. Front-end was develped with ReactJS, and the code is inside the **web** folder. Back-end has been written in pythom, and we have used some fancy libs to create the backend logic, which will be presented afterwards.
+This application consists in a mono repo. Front-end was develped with ReactJS, and the code is inside the **web** folder. Back-end has been written in python, and we have used some fancy libs to create the backend logic, which will be presented afterwards.
 
 
 # Check the project for yourself! Click on the image below
