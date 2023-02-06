@@ -29,7 +29,7 @@ With simples steps, it will be able to run everything locally.
 We will have to install python and some libs, using pip, for example.
 ```git
    pip install networkx matplotlib pickle MicroWebSrv2
-   cd web && yarn 
+   cd web && yarn && yarn dev
 ```
 
    # Main concepts used within this project
