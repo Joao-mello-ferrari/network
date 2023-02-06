@@ -4,8 +4,8 @@ During our second semester of graduation, some very nice data structures. In ord
 This application consist in a mono repo. Front-end was develped with ReactJS, and the code is inside the **web** folder. Back-end has been written in pythom, and we have used some fancy libs to create the backend logic, which will be presented afterwards.
 
 
-# Check the project for yourself!
-[![Follow Mohamed El-Qassas GitHub](https://user-images.githubusercontent.com/67838782/217044359-e992d5c8-0155-49e6-8aa2-e3ad85bb2747.png)](https://www.youtube.com/embed/YZYNvoWDaLo)
+# Check the project for yourself! Click on the image below
+[![Check the project video](https://user-images.githubusercontent.com/67838782/217044359-e992d5c8-0155-49e6-8aa2-e3ad85bb2747.png)](https://www.youtube.com/embed/YZYNvoWDaLo)
 
 # How can i download and run the project?
 With simples steps, it will be able to run everything locally.
