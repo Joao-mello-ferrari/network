@@ -5,10 +5,8 @@ This application consist in a mono repo. Front-end was develped with ReactJS, an
 
 
 # Check the project for yourself!
-> **Project website** - https://stocks.joaomellof.com </br>
-> **Youtube Video** - https://youtu.be/Peg5Mx_zU1I </br>
-
-![stocks home screen. Header on top, with user info and logout button. Filters and table right below, showing stocks](https://user-images.githubusercontent.com/67838782/181861838-e968fad6-c5a1-4320-8274-7478240794bd.png "stocks preview") 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YZYNvoWDaLo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+</iframe>
 
 # How can i download and run the project?
 With simples steps, it will be able to run everything locally.
