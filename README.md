@@ -5,8 +5,7 @@ This application consist in a mono repo. Front-end was develped with ReactJS, an
 
 
 # Check the project for yourself!
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YZYNvoWDaLo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-</iframe>
+[![Follow Mohamed El-Qassas GitHub](https://user-images.githubusercontent.com/67838782/217044359-e992d5c8-0155-49e6-8aa2-e3ad85bb2747.png)](https://www.youtube.com/embed/YZYNvoWDaLo)
 
 # How can i download and run the project?
 With simples steps, it will be able to run everything locally.
