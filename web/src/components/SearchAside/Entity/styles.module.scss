@@ -1,0 +1,103 @@
+.entity{
+  border-radius: 0.4rem;
+  transition: opacity 0.2s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0 1rem;
+  border: 0.1rem solid var(--header);
+
+  height: 5rem;
+
+  &:hover{
+    opacity: 0.9;
+  }
+
+  & + .entity{
+    margin-top: 0.6rem;
+  }
+
+  .entityType{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: auto;
+    height: 5rem;
+    width: 4rem;
+    padding-right: 1rem;
+
+    border-right: 0.1rem solid var(--header);
+
+    svg{
+      font-size: 1.6rem;
+    }
+
+  }
+
+  .user{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 0.6rem;
+    align-items: center;
+    height: 5rem;
+    margin: 0 1rem;
+    padding-right: 1rem;
+    border-right: 0.1rem solid var(--header);
+    width: 18vw;
+
+    > div{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: end;
+
+      .userName{
+        color: var(--theme)
+      }
+
+      span + span{
+        font-size: 0.8rem;
+      }
+    }
+
+    img, svg{
+      width: 3rem;
+      height: 3rem;
+      border-radius: 50%;
+    }
+  }
+
+  .connections{
+    display: flex;
+    flex-direction: column;
+
+    font-size: 0.8rem;
+    width: 7.2rem;
+
+    border: 0.1rem;
+
+    span{
+      padding: 0.1rem 0.3rem;
+      margin-left: auto;
+      border-radius: 0.2rem;
+
+      &:hover{
+        border-color: solid var(--theme);
+        background: var(--header);
+        cursor: pointer;
+      }
+
+      &.connected{
+        background: var(--theme-dark);
+      }
+    }
+
+    span + span{
+      margin-top: 0.2rem;
+    }
+
+  }
+}

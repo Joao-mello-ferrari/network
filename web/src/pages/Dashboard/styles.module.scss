@@ -1,0 +1,91 @@
+.dashboard{
+  width: 100vw;
+  max-width: 2100px;
+  min-height: 84vh;
+  display: flex;
+  padding-top: 1rem;
+
+  .mainContainer{
+    border-left: 0.1rem solid var(--header);
+
+    h2{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2rem;
+      margin: 2rem 0;
+
+      svg{
+        margin-left: 2rem;
+        font-size: 2.4rem;
+        color: var(--theme);
+      }
+    }
+
+    .grid{
+      width: 60vw;
+      padding: 1rem 2rem;
+  
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+
+      min-height: 60vh;
+
+      .defaultText{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        background: var(--header);
+        height: fit-content;
+        margin: auto;
+
+        padding: 3rem;
+        border-radius: 1rem;
+
+        h2{
+          margin: 0 0 2rem;
+        }
+
+        span{
+          font-size: 1.4rem;
+        }
+      }
+    }
+  }
+
+}
+
+.openGraphWidget{
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+
+  background: var(--theme);
+  color: var(--bg);
+  
+  padding: 0.6rem;
+  width: 10rem;
+  height: 3.2rem;
+  border-radius: 0.4rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.4rem;
+  font-weight: 500;
+  
+  transition: background 0.2s;
+
+  &:hover{
+    cursor: pointer;
+    background: var(--theme-light);
+  }
+
+  svg{
+    margin-left: 0.6rem;
+  }
+}

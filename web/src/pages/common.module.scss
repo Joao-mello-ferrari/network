@@ -1,0 +1,14 @@
+.container{
+  width: 100vw;
+  max-width: 2100px;
+  min-height: 100vh;
+  margin: 0 auto;
+  
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  align-items: center;
+
+  background: var(--bg);
+  color: var(--text);
+}
